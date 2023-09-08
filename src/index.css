@@ -4,11 +4,12 @@
     padding: 0px;
   
     box-sizing: border-box;
-  
 
-    text-decoration: none;
-
-    background-color: rgb(0, 136, 255);
 }
+
+body{
+background: rgb(70, 59, 84);
+  background: linear-gradient(90deg, rgba(70, 59, 84, 1) 0%, rgba(149, 117, 222, 1) 51%, rgba(70, 59, 84, 1) 100%);
+  }
 
 

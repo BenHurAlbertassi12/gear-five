@@ -14,10 +14,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  
+  height: 60px;
 
-  background-color: rgb(29, 29, 29);
-      box-shadow: -2px 2px 8px rgba(0, 0, 0, .3);
+  background-color: #2b2730;
+  box-shadow: -2px 2px 8px rgba(0, 0, 0, .3);
 }
 
 .pages {

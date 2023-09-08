@@ -13,6 +13,4 @@
 
   position: fixed;
   z-index: -1;
-  /* padding-top: 20px; */
-  /* Isso garante que a imagem preencha todo o espaço, mantendo a proporção */
 }
