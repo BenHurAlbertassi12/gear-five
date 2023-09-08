@@ -13,9 +13,14 @@ p, a, h1, h2,h3,h4, h5, h6,h7, span{
 }
 
 body{
-  background: linear-gradient(300deg,#2b2730,#293027);
-  background-size: 180% 180%;
-  animation: gradient-animation 18s ease infinite;
+  background: linear-gradient(300deg,
+  #2b2730 25%,
+  #293027 50%,
+   /* #2b2730 75%, */
+    #293027 100%
+    );
+  background-size: 500%;
+  animation: gradient-animation 18s  infinite;
 
 
   text-decoration: none;

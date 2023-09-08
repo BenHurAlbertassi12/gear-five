@@ -24,12 +24,14 @@
 .pages {
   display: flex;
   gap: 20px;
+
+  margin-left: 15px;
 }
 
 .phone {
   margin-left: auto;
+  margin-right: 15px;
   text-decoration: none;
-  /* padding: 20px; */
 }
 .linka{
   font-weight: bold;

@@ -1,5 +1,4 @@
 .div-footer {
-
     position: relative;
     bottom: 0;
     width: 100%;
@@ -8,20 +7,22 @@
     border: 0;
     margin: 0;
     box-shadow: inset 0px -100px 100px 0px #1d1d1d, inset 0px 65px 39px 0px rgba(0, 0, 0, 0.1);
-  background-color: aliceblue;
+}
+
+.div-footer > img {
+  width: 50px;
 }
 
 .p-desenvolvido,
 .a-desenvolvimento {
   margin: 0;
-  padding: 10px;
+  font-weight: bold;
   border: 0;
-  color: brown;
   font-size: 12px;
 }
 
 .link-termos {
-  color: white;
+
   text-decoration: none;
 }
 
@@ -29,10 +30,6 @@
   margin: 0;
   padding: 10px;
   border: 0;
-}
-
-.p-creci {
-  color: aliceblue;
 }
 
 .hr-divisoria {
