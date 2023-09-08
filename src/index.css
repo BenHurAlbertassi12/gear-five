@@ -7,9 +7,30 @@
 
 }
 
+p, a, h1, h2,h3,h4, h5, h6,h7, span{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #f5f5f5;
+}
+
 body{
-background: rgb(70, 59, 84);
-  background: linear-gradient(90deg, rgba(70, 59, 84, 1) 0%, rgba(149, 117, 222, 1) 51%, rgba(70, 59, 84, 1) 100%);
+  background: linear-gradient(300deg,#2b2730,#293027);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+
+
+  text-decoration: none;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
   }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 
 
