@@ -18,7 +18,6 @@ root.render(
       <AppProvider>
         <Header />
         <App />
-        <Footer />
       </AppProvider>
     </BrowserRouter>
   </React.StrictMode>,

@@ -9,9 +9,14 @@ export const TitleHome = () => {
     <div>
       <div className="div-intro">
         <h1 className="text-focus-in">Gear-5 Desenvolvimento</h1>
-        <h2 className="h3-sub-title">A Quinta Marcha do seu negócio</h2>
       </div>
       <img src={logo} className="img-logo-title scale-up-center" />
+      <div className="div-intro">
+        <h2 className="h3-sub-title">
+          A Quinta Marcha <hr />
+          do seu negócio
+        </h2>
+      </div>
     </div>
   );
 };

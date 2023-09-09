@@ -1,10 +1,8 @@
 .img-logo-title {
   display: flex;
   margin: auto;
-
-  width: 50vw;
-  min-width: 350px;
-
+  width: 26vw;
+  min-width: 275px;
 }
 
 .scale-up-center {

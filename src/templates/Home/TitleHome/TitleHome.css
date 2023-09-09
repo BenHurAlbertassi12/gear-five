@@ -3,13 +3,12 @@
   justify-content: center;
   text-align: center;
 
-  padding-top: 25px;
-  /* padding-bottom: 20px; */
+  /* padding-top: 15px; */
 }
 
 .text-focus-in {
   font-size: 5vw;
-  padding-bottom: 10px;
+  /* padding-bottom: 10px; */
 text-shadow: 0px 0px 15px rgba(149, 117, 222, 0.69);
 
   -webkit-animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
