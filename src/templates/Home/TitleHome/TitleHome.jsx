@@ -8,7 +8,7 @@ export const TitleHome = () => {
       <img src={logo} className="img-logo-title" />
       <div className="div-intro">
         <h1>Gear-5 Desenvolvimento</h1>
-        <h2>A Quinta Marcha do seu negócio</h2>
+        <h3>A Quinta Marcha do seu negócio</h3>
       </div>
     </div>
   );

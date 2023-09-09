@@ -3,7 +3,7 @@
   justify-content: center;
   text-align: center;
 
-  padding-top: 50px;
+  /* padding-top: 50px; */
   padding-bottom: 50px;
 }
 
@@ -14,3 +14,16 @@
   width: 50vw;
   min-width: 350px;
 }
+
+.div-intro>h1 {
+  font-size: 5vw;
+  padding-bottom: 10px;
+ 
+}
+
+@media (max-width: 600px) {
+  .div-intro>h1{
+    font-size: 30px;
+    }
+  }
+    
