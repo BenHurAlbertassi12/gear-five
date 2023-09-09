@@ -3,22 +3,45 @@
   justify-content: center;
   text-align: center;
 
-  /* padding-top: 50px; */
-  padding-bottom: 50px;
+  padding-top: 25px;
+  /* padding-bottom: 20px; */
 }
 
-.img-logo-title{
-  display: flex;
-  margin: auto;
-
-  width: 50vw;
-  min-width: 350px;
-}
-
-.div-intro>h1 {
+.text-focus-in {
   font-size: 5vw;
   padding-bottom: 10px;
- 
+text-shadow: 0px 0px 15px rgba(149, 117, 222, 0.69);
+
+  -webkit-animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
 }
 
 @media (max-width: 600px) {

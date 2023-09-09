@@ -1,0 +1,42 @@
+.h3-sub-title {
+  -webkit-animation: h3-sub-title 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1.5s both;
+  animation: h3-sub-title 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1.5s both;
+}
+
+@-webkit-keyframes h3-sub-title {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px);
+    transform: translateZ(400px);
+    opacity: 0;
+  }
+
+  40% {
+    opacity: 0.6;
+  }
+
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+@keyframes h3-sub-title {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px);
+    transform: translateZ(400px);
+    opacity: 0;
+  }
+
+  40% {
+    opacity: 0.6;
+  }
+
+  100% {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
