@@ -3,16 +3,22 @@ import { TitleHome } from './TitleHome/TitleHome';
 import { Footer } from '../../Components/Footer/Footer';
 
 import './Home.css';
-import { HeaderHomePoritfoil } from './HeaderHome/HeaderHomePoritfoil';
-import { HeaderHomeContact } from './HeaderHome/HeaderHomeContact';
+
+import { HeaderPortfoil } from './HeaderHome/HeaderPortifoil/HeaderPortfoil';
+import { HeaderService } from './HeaderHome/HeaderService/HeaderService';
+
+import { HeaderSobre } from './HeaderHome/HeaderSobre/HeaderPortfoil';
+import { HeaderContact } from './HeaderHome/HeaderContact/HeaderContact';
 
 export const Home = () => {
   return (
     <div className="container">
       <div className="content">
-        <HeaderHomePoritfoil />
+        <HeaderPortfoil />
+        <HeaderService />
         <TitleHome />
-        <HeaderHomeContact />
+        <HeaderSobre />
+        <HeaderContact />
       </div>
       <div className="footer">
         <Footer />

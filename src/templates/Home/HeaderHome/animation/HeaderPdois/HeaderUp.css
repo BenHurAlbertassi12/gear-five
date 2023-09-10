@@ -1,6 +1,3 @@
-.div-HeaderHomeContact {
-  transform: rotate(90deg);
-}
 
 .p-effect-up {
   -webkit-animation: p-effect-up 5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
@@ -15,8 +12,8 @@
   }
 
   0% {
-    -webkit-transform: translateX(-1000px);
-    transform: translateX(-1000px);
+    -webkit-transform: translateX(1000px);
+    transform: translateX(1000px);
     opacity: 0;
   }
 }
@@ -28,9 +25,9 @@
     opacity: 1;
   }
 
-  0% {
-    -webkit-transform: translateX(-1000px);
-    transform: translateX(-1000px);
+  00% {
+    -webkit-transform: translateX(1000px);
+    transform: translateX(1000px);
     opacity: 0;
   }
 }
