@@ -1,14 +1,27 @@
 .img-logo-title {
   display: flex;
   margin: auto;
-  width: 26vw;
-  min-width: 275px;
+  width: 35vw;
+  min-width: 350px;
+}
+@media(min-width: 768px) and (max-width: 912px){
+  .img-logo-title{
+    width: 40vw;
+    min-width: 750px;
+  }
 }
 
+@media(max-width: 280px){
+  .img-logo-title{
+    width: 280px;
+    min-width: 270px;
+  }
+}
 .scale-up-center {
   -webkit-animation: scale-up-center 10s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite alternate both;
   animation: scale-up-center 10s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite alternate both;
 }
+
 
 @keyframes scale-up-center {
   0% {

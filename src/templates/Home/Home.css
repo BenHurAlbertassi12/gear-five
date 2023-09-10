@@ -14,10 +14,16 @@
 
 .content {
   flex: 1;
-
 }
 
 .footer {
   flex-shrink: 0;
-
 }
+
+
+  .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
