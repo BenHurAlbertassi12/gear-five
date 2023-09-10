@@ -1,3 +1,18 @@
+
+.h3-sub-title{
+  font-size: 4vw;
+  letter-spacing: 1px;
+}
+
+@media(min-width: 768px) and (max-width: 912px) {
+  .h3-sub-title {
+    font-size: 48px;
+  }
+  .text-focus-in{
+    font-size: 8vw;
+  }
+}
+
 .h3-sub-title {
   -webkit-animation: h3-sub-title 2.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) 2s both;
     animation: h3-sub-title 2.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) 2s both;
