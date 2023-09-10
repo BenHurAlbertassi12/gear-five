@@ -1,15 +1,15 @@
 .h3-sub-title {
-  -webkit-animation: h3-sub-title 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1.5s both;
-  animation: h3-sub-title 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1.5s both;
+  -webkit-animation: h3-sub-title 2.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) 2s both;
+    animation: h3-sub-title 2.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) 2s both;
 }
 
 
 
 @-webkit-keyframes h3-sub-title {
   0% {
-    letter-spacing: 1em;
-    -webkit-transform: translateZ(400px);
-    transform: translateZ(400px);
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+    transform: translateZ(-700px);
     opacity: 0;
   }
 
@@ -26,9 +26,9 @@
 
 @keyframes h3-sub-title {
   0% {
-    letter-spacing: 1em;
-    -webkit-transform: translateZ(400px);
-    transform: translateZ(400px);
+    letter-spacing: -0.5em;
+    -webkit-transform: translateZ(-700px);
+    transform: translateZ(-700px);
     opacity: 0;
   }
 

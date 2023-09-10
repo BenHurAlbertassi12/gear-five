@@ -12,10 +12,8 @@ export const TitleHome = () => {
       </div>
       <img src={logo} className="img-logo-title scale-up-center" />
       <div className="div-intro">
-        <h2 className="h3-sub-title">
-          A Quinta Marcha <hr />
-          do seu negócio
-        </h2>
+        <h2 className="h3-sub-title">A Quinta Marcha</h2>
+        <h2 className="h3-sub-title">do seu negócio</h2>
       </div>
     </div>
   );
