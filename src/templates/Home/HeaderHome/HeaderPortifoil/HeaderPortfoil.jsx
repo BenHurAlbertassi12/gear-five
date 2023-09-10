@@ -4,7 +4,9 @@ import '../HeaderPosition.css';
 export const HeaderPortfoil = () => {
   return (
     <div className="div-esquerda">
-      <p className="p-effect-up">Portfólio</p>
+      <div className="banlanco-up">
+        <p className="p-effect-up shadow-p">Portifólio</p>
+      </div>
     </div>
   );
 };

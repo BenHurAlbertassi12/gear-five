@@ -7,18 +7,22 @@ import './Home.css';
 import { HeaderPortfoil } from './HeaderHome/HeaderPortifoil/HeaderPortfoil';
 import { HeaderService } from './HeaderHome/HeaderService/HeaderService';
 
-import { HeaderSobre } from './HeaderHome/HeaderSobre/HeaderPortfoil';
+import { HeaderSobre } from './HeaderHome/HeaderSobre/HeaderSobre';
 import { HeaderContact } from './HeaderHome/HeaderContact/HeaderContact';
 
 export const Home = () => {
   return (
     <div className="container">
       <div className="content">
-        <HeaderPortfoil />
-        <HeaderService />
+        <div className="center">
+          <HeaderPortfoil />
+          <HeaderService />
+        </div>
         <TitleHome />
-        <HeaderSobre />
-        <HeaderContact />
+        <div className="center">
+          <HeaderSobre />
+          <HeaderContact />
+        </div>
       </div>
       <div className="footer">
         <Footer />
