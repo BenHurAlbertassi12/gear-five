@@ -1,0 +1,9 @@
+.imagem-projeto {
+  min-width: 100%;
+  min-height: 100%;
+  transition: transform .8s;
+}
+
+.imagem-projeto:hover {
+  transform: scale(1.1)
+}
