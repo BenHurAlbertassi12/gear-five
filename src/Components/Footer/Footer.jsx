@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import './Footer.css';
 
-import ico from '../../assets/Logo G5 50x50 gear-5 only.png';
+import ico from '../../assets/BENHURALBERTASSI.png';
 
 export const Footer = () => {
   return (

@@ -9,6 +9,7 @@
 }
 
 .text-focus-in {
+  
   font-size: 5vw;
   /* padding-bottom: 10px; */
 text-shadow: 0px 0px 15px rgba(149, 117, 222, 0.69);
@@ -44,6 +45,7 @@ text-shadow: 0px 0px 15px rgba(149, 117, 222, 0.69);
     opacity: 1;
   }
 }
+
 
 @media (max-width: 600px) {
   .div-intro>h1{

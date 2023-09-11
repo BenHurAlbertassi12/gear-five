@@ -2,11 +2,11 @@ import './TitleHome.css';
 import './h3-sub-title.css';
 import './logo.css';
 
-import logo from '../../../assets/Logo G5 1500x1500 original color.png';
+import logo from '../../../assets/BENHURALBERTASSI.png';
 
 export const TitleHome = () => {
   return (
-    <div>
+    <div className="aligncontent">
       <div className="div-intro">
         <h1 className="text-focus-in">Gear-5 Desenvolvimento</h1>
       </div>
