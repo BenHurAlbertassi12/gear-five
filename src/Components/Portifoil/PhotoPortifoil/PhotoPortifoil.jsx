@@ -2,21 +2,24 @@
 import React from 'react';
 import { projects } from '../projects';
 
+import './PhotoPortifoil.css';
+import { TagsPortifoil } from '../TagsPortifoil/TagsPortifoil';
+
 export const PhotoPortifoil = () => {
   return (
-    <div>
-      <div>
-        {projects.map((project) => (
-          <div key={project.id}>
-            <h2>{project.name}</h2>
+    <div className="div-total">
+      {projects.map((project) => (
+        <div key={project.id}>
+          <a href={project.deploy} className="a-container" target="blak">
             <img
               src={project.imagem}
               alt={project.name}
-              className="imagem-projeto"
+              className="card-imagem"
             />
-          </div>
-        ))}
-      </div>
+            <TagsPortifoil project={project} />
+          </a>
+        </div>
+      ))}
     </div>
   );
 };
