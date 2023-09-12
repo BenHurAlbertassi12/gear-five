@@ -1,11 +1,10 @@
 import { PhotoPortifoil } from '../../Components/Portifoil/PhotoPortifoil/PhotoPortifoil';
+import '../../Components/Portifoil/PhotoPortifoil/PhotoPortifoil.css';
 
 export const Portifoil = () => {
   return (
     <div>
-      <a>
-        <PhotoPortifoil />
-      </a>
+      <PhotoPortifoil />
     </div>
   );
 };
